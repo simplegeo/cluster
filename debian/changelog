@@ -1,3 +1,12 @@
+nodejs-cluster (0.6.2-0sg38) UNRELEASED; urgency=low
+
+  [ Wade Simmons ]
+  * remove support/should
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Wed, 11 May 2011 23:18:17 +0000
+
 nodejs-cluster (0.6.2-0sg0) unstable; urgency=low
 
   * New upstream release
