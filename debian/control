@@ -1,0 +1,13 @@
+Source: nodejs-cluster
+Section: misc
+Priority: extra
+Uploaders: Wade Simmons <wade@simplegeo.com>
+Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
+build-Depends: cdbs, debhelper (>= 7), nodejs-npm (>= 1.0)
+Standards-Version: 3.9.1
+
+Package: nodejs-cluster
+Depends: nodejs (>= 0.4.0), ${misc:Depends}
+Architecture: all
+Description: cluster
+ https://github.com/learnboost/cluster

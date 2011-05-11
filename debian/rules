@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+
+install/nodejs-cluster::
+	npm_config_prefix=debian/nodejs-cluster/usr npm install -g
+	mv debian/nodejs-cluster/usr/lib/node_modules debian/nodejs-cluster/usr/lib/nodejs
