@@ -1,3 +1,9 @@
+nodejs-cluster (0.6.2-0sg0) unstable; urgency=low
+
+  * New upstream release
+
+ -- Wade Simmons <wade@simplegeo.com>  Wed, 11 May 2011 15:41:45 -0700
+
 nodejs-cluster (0.6.1-0sg1) UNRELEASED; urgency=low
 
   * UNRELEASED
