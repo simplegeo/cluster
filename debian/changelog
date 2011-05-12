@@ -1,3 +1,12 @@
+nodejs-cluster (0.6.2-0sg39) UNRELEASED; urgency=low
+
+  [ Wade Simmons ]
+  * use dh_link instead of mv to make sure we don't break anything
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Thu, 12 May 2011 19:22:52 +0000
+
 nodejs-cluster (0.6.2-0sg38) UNRELEASED; urgency=low
 
   [ Wade Simmons ]
