@@ -1,3 +1,31 @@
+nodejs-cluster (0.6.2-0sg41) UNRELEASED; urgency=low
+
+  [ Tj Holowaychuk ]
+  * removed support/should
+  * pidfiles() cleans up after itself. Closes #93 we need a better way
+    to handle this. we could a) defer closing, however that is
+    problematic due to an async task perhaps not performing correctly or
+    at all. b) do sync stuff like this on shut down or c) not clean up
+  * Revert "pidfiles() cleans up after itself. Closes #93" This reverts
+    commit b55feda3b990564f7919e08c00b69f3d2da6ad11.
+  * typo for dev deps
+  * fix tests
+  * Fixed Master#listen() with env specific config. Closes #98
+
+  [ Wade Simmons ]
+  * make it possible to pass {color: false} to debug() Signed-off-by: Tj
+    Holowaychuk <tj@vision-media.ca>
+
+  [ Tj Holowaychuk ]
+  * color -> colors
+  * misc refactoring of colors option
+  * log >= 1.2.0
+  * refactored logger() to utilize log.js sprintf syntax
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Wed, 01 Jun 2011 17:39:42 +0000
+
 nodejs-cluster (0.6.2-0sg40) UNRELEASED; urgency=low
 
   [ Wade Simmons ]
