@@ -1,3 +1,9 @@
+nodejs-cluster (0.6.2-0sg69) UNRELEASED; urgency=low
+
+  * UNRELEASED
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Mon, 27 Jun 2011 23:16:48 +0000
+
 nodejs-cluster (0.6.2-0sg41) UNRELEASED; urgency=low
 
   [ Tj Holowaychuk ]
